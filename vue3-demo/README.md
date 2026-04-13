@@ -1,20 +1,33 @@
-# 云信 IM UI Kit for Vue
+# im-kit-vue-ui-h5
 
-### 配置项目
+This template should help get you started developing with Vue 3 in Vite.
 
-```typescript
-// 请到下面路径的文件配置
-// src/App.vue
-this.initIMUiKit({
-  appkey: "", // 请填写你的appkey
-  account: "", // 请填写你的account
-  token: "", // 请填写你的token
-});
-```
+## Recommended IDE Setup
 
-### 项目运行
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-```
+## Type Support for `.vue` Imports in TS
+
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vite.dev/config/).
+
+## Project Setup
+
+```sh
 npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
 npm run dev
+```
+
+### Type-Check, Compile and Minify for Production
+
+```sh
+npm run build
 ```
