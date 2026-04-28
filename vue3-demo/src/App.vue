@@ -27,9 +27,9 @@ export default {
   },
   mounted() {
     this.initIMUiKit({
-      appkey: "3e215d27b6a6a9e27dad7ef36dd5b65c", //您在云信控制台注册的appkey
-      account: "53054", //云信控制台上的account
-      token: "4d76e8c3-490b-4377-904e-ae10d2617211",
+      appkey: "", //您在云信控制台注册的appkey
+      account: "", //云信控制台上的account
+      token: "",
     });
   },
 };
